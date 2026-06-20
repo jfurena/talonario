@@ -1,0 +1,6 @@
+{
+  "name": "Talonario Digital",
+  "description": "Una aplicación sencilla y rápida para crear, guardar y descargar recibos digitales para tu negocio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
