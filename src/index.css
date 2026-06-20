@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", ui-serif, Georgia, Cambria, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-earth-bg: #F5F5F0;
+  --color-earth-text: #2D2D2A;
+  --color-earth-primary: #5A5A40;
+  --color-earth-primary-hover: #4A4A32;
+  --color-earth-secondary: #7A7A6A;
+  --color-earth-border: #E6E0D4;
+  --color-earth-border-light: #DCDCD2;
+  --color-earth-card: #FAF9F6;
+  --color-earth-accent-bg: #EAE7DF;
+  --color-earth-preview-bg: #E0DDD5;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-earth-bg);
+    color: var(--color-earth-text);
+  }
+}
